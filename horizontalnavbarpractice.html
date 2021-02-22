@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!-- example of horizontal nav bar I found on codepen, just to practice. -->
+<head>
+    <!-- link css file to html file-->
+    <link rel="StyleSheet" type="text/css" href="horizontalnavbarpractice.css"/>
+</head>
+<header>
+    <nav class="dropdownmenu">
+        <ul>
+            <li><a href="http://www.myofunctionalpartners.com/">Home</a></li>
+        <!-- am I missing a class selector here? Cannot click or hover to find dropdowns, no colors either-->
+            <li><a href="https://myofunctionalpartners.com/about">About</a>
+                <!-- creating submenus for dropdown menu-->
+                <ul id="submenu">
+                    <li><a href="https://myofunctionalpartners.com/faq">FAQ</a></li>
+                </ul></li>
+            <li><a href="https://myofunctionalpartners.com/services">Services</a>
+                <ul id="submenu">
+                    <li><a href="https://myofunctionalpartners.com/learn-more">Learn More</a></li>
+                    <li><a href="https://myofunctionalpartners.com/science-and-research">Science and Research</a></li>
+                </ul></li>
+            <li><a href="https://myofunctionalpartners.com/contact">Contact</a></li> 
+        </ul>
+    </nav>
+</header>
+
+</html>
